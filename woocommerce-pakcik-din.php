@@ -114,7 +114,6 @@ class Woocommerce_Pakcik_Din {
     $options  = get_option( WC_PD_SLUG, array() );
 
     if ( empty( $options ) || !isset($options['product_ids'] ) || empty( $options['product_ids'] ) ) {
-      exit('aik');
       return $options;
     }
 
