@@ -3,13 +3,13 @@
 $slug = WC_PD_SLUG;
 
 CSF_Setup::createOptions( $slug, array(
-  'framework_title' => __( 'WooCommerce Pakcik Din', 'wc_pd' ),
+  'framework_title' => __( 'WooCommerce Mainstream X', 'wc_pd' ),
 
-  'menu_title'  => __( 'Pakcik Din Settings', 'wc_pd' ),
+  'menu_title'  => __( 'Mainstream X Settings', 'wc_pd' ),
   'menu_slug'   => 'wc_pd',
   'menu_type'   => 'submenu',
   'menu_parent' => 'woocommerce',
-  'footer_text' => sprintf( __( 'WooCommerce Pakcik Din %s', 'wc_pd' ) , WC_PD_VERSION ),
+  'footer_text' => sprintf( __( 'WooCommerce Mainstream X %s', 'wc_pd' ) , WC_PD_VERSION ),
   'theme'       => 'light',
 ) );
 

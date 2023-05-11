@@ -2,8 +2,8 @@
 
 /**
  *
- * Plugin Name: WooCommerce Pakcik Din
- * Plugin URI: https://github.com/wzul/woocommerce-pakcik-din/
+ * Plugin Name: WooCommerce Mainstream X
+ * Plugin URI: https://github.com/wzul/woocommerce-mainstream-x/
  * Description: Customize WooCommerce Shopping Experience
  * Version: 1.0.0
  * Author: Wan Zulkarnain
@@ -17,7 +17,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly.
 
-class Woocommerce_Pakcik_Din {
+class Woocommerce_Mainstream_X {
 
   private static $_instance;
 
@@ -127,4 +127,4 @@ class Woocommerce_Pakcik_Din {
   }
 }
 
-Woocommerce_Pakcik_Din::get_instance();
+Woocommerce_Mainstream_X::get_instance();
